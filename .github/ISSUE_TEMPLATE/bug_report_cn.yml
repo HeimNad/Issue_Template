@@ -5,9 +5,9 @@ labels: ["bug"]
 body:
   - type: checkboxes
     attributes:
-    label: 欢迎你来填写Bug反馈, 是否确认你所反馈的Bug没有人反馈过!
-    options:
-      - label: 我确认
+      label: 欢迎你来填写Bug反馈, 是否确认你所反馈的Bug没有人反馈过!
+      options:
+        - label: 我确认
     validations:
       required: true
   - type: input
