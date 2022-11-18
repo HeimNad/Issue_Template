@@ -3,7 +3,7 @@ description: 🎤 | 提交你发现的MSS 3中的Bug
 title: "[🐛 | Bug]: "
 labels: ["bug"]
 body:
-  - type: checkboxs
+  - type: checkboxes
     attributes:
     label: 欢迎你来填写Bug反馈, 是否确认你所反馈的Bug没有人反馈过!
     options:
