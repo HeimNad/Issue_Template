@@ -11,7 +11,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    atteibutes:
+    attributes:
       label: 系统名称
       description: 你使用MSS 3时的系统名称
       options:
