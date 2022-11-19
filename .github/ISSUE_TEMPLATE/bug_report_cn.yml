@@ -26,6 +26,7 @@ body:
     id: MSS3_Verison
     attributes:
       label: 请写下你发现Bug的MSS 3版本
+      placeholder: vx.x.x
     validations:
       required: true
   - type: input
