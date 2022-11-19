@@ -41,9 +41,9 @@ body:
       label: 请简述Bug触发流程
       description: 请简要复述如何MSS 3中触发这个Bug
       placeholder: |
-      1. xxx
-      2. xxx
-      3. xxx
+        1. xxx
+        2. xxx
+        3. xxx
     validations:
       required: true
   - type: textarea
