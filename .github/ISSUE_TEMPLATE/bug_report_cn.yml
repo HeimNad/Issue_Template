@@ -5,7 +5,7 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: "#🎁 | 欢迎你来填写MSS 3 Bug反馈!"
+      value: "# 🎁 | 欢迎你来填写MSS 3 Bug反馈!"
   - type: checkboxes
     id: Prefeedback
     attributes:
@@ -60,4 +60,4 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "###🎉 | 感谢你对MSS 3的支持!"
+      value: "### 🎉 | 感谢你对MSS 3的支持!"
