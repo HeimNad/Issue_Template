@@ -17,12 +17,8 @@ body:
         - label: Windows
         - label: linux
         - label: MacOS
-     validations:
+    validations:
        required: true
-      
-      
-      
-      
   - type: input
     id: contact
     attributes:
