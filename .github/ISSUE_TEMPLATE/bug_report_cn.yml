@@ -3,6 +3,9 @@ description: 🎤 | 提交你发现的MSS 3中的Bug
 title: "[Bug]: "
 labels: ["bug"]
 body:
+  - type: markdown
+    attributes:
+      value: "🎁 | 欢迎你来填写MSS 3 Bug反馈!"
   - type: checkboxes
     id: Prefeedback
     attributes:
@@ -55,3 +58,6 @@ body:
       description: MSS 3日志文件存储在\logs, 可以复制到文本框也可以直接上传文件
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "🎉 | 感谢你对MSS 3的支持!"
