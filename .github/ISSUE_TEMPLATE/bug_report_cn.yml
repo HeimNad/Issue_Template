@@ -24,7 +24,7 @@ body:
        required: true
   - type: input
     id: MSS3_Verison
-    atteibutes:
+    attributes:
       label: 请写下你发现Bug的MSS 3版本
     validations:
       required: true
