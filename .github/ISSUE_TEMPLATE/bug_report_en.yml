@@ -54,7 +54,7 @@ body:
 - type: textarea
   id: UploadLog
   attributes:
-    abel: Upload MSS 3 logs
+    label: Upload MSS 3 logs
     description: MSS 3 log files are stored in \logs and can be copied to the text box or uploaded directly
   validations:
     required: true
