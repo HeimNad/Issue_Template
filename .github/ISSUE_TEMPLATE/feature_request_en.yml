@@ -21,6 +21,15 @@ body:
     description: Please briefly describe the new features you would like to add in MSS 3
     placeholder: |
       I want to add xxx functionality in the xxx interface...
+- type: textarea
+  id: FeatureRequest_Steps
+  attributes:
+    label: Please elaborate on the new features
+    description: Please describe in detail the steps to implement the new feature
+    placeholder: |
+      1. Click xxx, open xxx, xxx appears
+      2. xxx is displayed in the xx that appears
+      3. ....
 - type: markdown
   attributes:
     value: "### 🎉 | Thank you for your support of MSS 3!"
