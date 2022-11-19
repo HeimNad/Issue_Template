@@ -4,70 +4,49 @@ title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: checkboxes
+    id: Prefeedback
     attributes:
       label: 欢迎你来填写Bug反馈, 是否确认你所反馈的Bug没有人反馈过!
       options:
         - label: 我确认!
           required: true
   - type: dropdown
+    id: OS_Name
     attributes:
       label: 系统名称
-      description: 你使用MSS 3时的系统名称
+      description: 你搭建MSS 3的系统名称
       multiple: false
       options:
-        - label: Windows
-        - label: linux
-        - label: MacOS
+        - Windows
+        - Linux
+        - MacOS
     validations:
        required: true
   - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+    id: MSS3_Verison
+    atteibutes:
+      label: 请写下你发现Bug的MSS 3版本
     validations:
-      required: false
-  - type: textarea
-    id: what-happened
+      required: true
+  - type: input
+    id: BugInMSS3_Place
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: 请简述你遇到的问题
+      description: 请简要描述你在MSS 3中的什么地方发现了这个Bug
+    validations:
+      required: true
+  - type: input
+    id: BugInMSS3_Retry
+    attributes:
+      label: 请简述Bug触发流程
+      description: 请简要复述如何MSS 3中触发这个Bug
+    validations:
+      required: true
+  - type: textarea
+    id: UploadLog
+    attributes:
+      label: 在此处放置MSS 3日志
+      description: MSS 3日志文件存储在\logs, 可以复制到文本框也可以直接上传文件
       placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
