@@ -6,10 +6,10 @@ body:
   - type: checkboxes
     id: Prefeedback
     attributes:
-      label: 欢迎你来填写Bug反馈, 是否确认你所反馈的Bug没有人反馈过!
+      label: 是否确认你所反馈的Bug是独一无二的
       description: 可以在[这里](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)进行搜索
       options:
-        - label: 我确认!
+        - label: 确认
           required: true
   - type: dropdown
     id: OS_Name
