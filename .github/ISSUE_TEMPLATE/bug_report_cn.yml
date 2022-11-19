@@ -54,7 +54,7 @@ body:
   - type: textarea
     id: UploadLog
     attributes:
-      label: 在此处放置MSS 3日志
+      label: 在此处上传MSS 3日志
       description: MSS 3日志文件存储在\logs, 可以复制到文本框也可以直接上传文件
     validations:
       required: true
