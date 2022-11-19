@@ -1,7 +1,7 @@
 name: 🐛 | Bug Report
 description: 🎤 | Submit bugs in MSS 3 that you found
 title: "[Bug]: "
-labels: ["bug"]
+labels: ["漏洞"]
 body:
   - type: markdown
     attributes:

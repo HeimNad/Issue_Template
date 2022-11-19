@@ -1,7 +1,7 @@
 name: 🐛 | Bug 提交
 description: 🎤 | 提交你发现的MSS 3中的Bug
-title: "[Bug]: "
-labels: ["bug"]
+title: "[漏洞]: "
+labels: ["漏洞"]
 body:
   - type: markdown
     attributes:
