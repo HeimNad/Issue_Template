@@ -13,6 +13,7 @@ body:
     attributes:
       label: 系统名称
       description: 你使用MSS 3时的系统名称
+      multiple: false
       options:
         - label: Windows
         - label: linux
